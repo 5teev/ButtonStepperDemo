@@ -2,6 +2,9 @@
 //  CustomButton.m
 //  ButtonStepperDemo
 //
+//  Created by Steve Milano on 3/18/13.
+//  Copyright (c) 2013 SEDIFY. All rights reserved.
+//
 
 #import "CustomButton.h"
 
