@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF5FB57416F77FE600CA2C7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5FB57316F77FE600CA2C7C /* UIKit.framework */; };
+		AF5FB57616F77FE600CA2C7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5FB57516F77FE600CA2C7C /* Foundation.framework */; };
+		AF5FB57816F77FE600CA2C7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5FB57716F77FE600CA2C7C /* CoreGraphics.framework */; };
+		AF5FB57E16F77FE600CA2C7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF5FB57C16F77FE600CA2C7C /* InfoPlist.strings */; };
+		AF5FB58016F77FE600CA2C7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FB57F16F77FE600CA2C7C /* main.m */; };
+		AF5FB58416F77FE600CA2C7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FB58316F77FE600CA2C7C /* AppDelegate.m */; };
+		AF5FB58616F77FE600CA2C7C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5FB58516F77FE600CA2C7C /* Default.png */; };
+		AF5FB58816F77FE600CA2C7C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5FB58716F77FE600CA2C7C /* Default@2x.png */; };
+		AF5FB58A16F77FE600CA2C7C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5FB58916F77FE600CA2C7C /* Default-568h@2x.png */; };
+		AF5FB58D16F77FE600CA2C7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FB58C16F77FE600CA2C7C /* ViewController.m */; };
+		AF5FB59016F77FE600CA2C7C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF5FB58E16F77FE600CA2C7C /* ViewController.xib */; };
+		AF5FB59B16F7813700CA2C7C /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5FB59A16F7813700CA2C7C /* CustomButton.m */; };
+		AF5FB59D16F7819600CA2C7C /* woof.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF5FB59C16F7819600CA2C7C /* woof.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF5FB57016F77FE600CA2C7C /* ButtonStepperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonStepperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5FB57316F77FE600CA2C7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF5FB57516F77FE600CA2C7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF5FB57716F77FE600CA2C7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF5FB57B16F77FE600CA2C7C /* ButtonStepperDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonStepperDemo-Info.plist"; sourceTree = "<group>"; };
+		AF5FB57D16F77FE600CA2C7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF5FB57F16F77FE600CA2C7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF5FB58116F77FE600CA2C7C /* ButtonStepperDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonStepperDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AF5FB58216F77FE600CA2C7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF5FB58316F77FE600CA2C7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF5FB58516F77FE600CA2C7C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AF5FB58716F77FE600CA2C7C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AF5FB58916F77FE600CA2C7C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AF5FB58B16F77FE600CA2C7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF5FB58C16F77FE600CA2C7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF5FB58F16F77FE600CA2C7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AF5FB59916F7813700CA2C7C /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		AF5FB59A16F7813700CA2C7C /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		AF5FB59C16F7819600CA2C7C /* woof.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woof.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5FB56D16F77FE600CA2C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5FB57416F77FE600CA2C7C /* UIKit.framework in Frameworks */,
+				AF5FB57616F77FE600CA2C7C /* Foundation.framework in Frameworks */,
+				AF5FB57816F77FE600CA2C7C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5FB56716F77FE600CA2C7C = {
+			isa = PBXGroup;
+			children = (
+				AF5FB57916F77FE600CA2C7C /* ButtonStepperDemo */,
+				AF5FB57216F77FE600CA2C7C /* Frameworks */,
+				AF5FB57116F77FE600CA2C7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5FB57116F77FE600CA2C7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FB57016F77FE600CA2C7C /* ButtonStepperDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5FB57216F77FE600CA2C7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FB57316F77FE600CA2C7C /* UIKit.framework */,
+				AF5FB57516F77FE600CA2C7C /* Foundation.framework */,
+				AF5FB57716F77FE600CA2C7C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF5FB57916F77FE600CA2C7C /* ButtonStepperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FB58216F77FE600CA2C7C /* AppDelegate.h */,
+				AF5FB58316F77FE600CA2C7C /* AppDelegate.m */,
+				AF5FB58B16F77FE600CA2C7C /* ViewController.h */,
+				AF5FB58C16F77FE600CA2C7C /* ViewController.m */,
+				AF5FB58E16F77FE600CA2C7C /* ViewController.xib */,
+				AF5FB59916F7813700CA2C7C /* CustomButton.h */,
+				AF5FB59A16F7813700CA2C7C /* CustomButton.m */,
+				AF5FB57A16F77FE600CA2C7C /* Supporting Files */,
+			);
+			path = ButtonStepperDemo;
+			sourceTree = "<group>";
+		};
+		AF5FB57A16F77FE600CA2C7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FB59C16F7819600CA2C7C /* woof.jpg */,
+				AF5FB57B16F77FE600CA2C7C /* ButtonStepperDemo-Info.plist */,
+				AF5FB57C16F77FE600CA2C7C /* InfoPlist.strings */,
+				AF5FB57F16F77FE600CA2C7C /* main.m */,
+				AF5FB58116F77FE600CA2C7C /* ButtonStepperDemo-Prefix.pch */,
+				AF5FB58516F77FE600CA2C7C /* Default.png */,
+				AF5FB58716F77FE600CA2C7C /* Default@2x.png */,
+				AF5FB58916F77FE600CA2C7C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5FB56F16F77FE600CA2C7C /* ButtonStepperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5FB59316F77FE600CA2C7C /* Build configuration list for PBXNativeTarget "ButtonStepperDemo" */;
+			buildPhases = (
+				AF5FB56C16F77FE600CA2C7C /* Sources */,
+				AF5FB56D16F77FE600CA2C7C /* Frameworks */,
+				AF5FB56E16F77FE600CA2C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonStepperDemo;
+			productName = ButtonStepperDemo;
+			productReference = AF5FB57016F77FE600CA2C7C /* ButtonStepperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5FB56816F77FE600CA2C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = SEDIFY;
+			};
+			buildConfigurationList = AF5FB56B16F77FE600CA2C7C /* Build configuration list for PBXProject "ButtonStepperDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF5FB56716F77FE600CA2C7C;
+			productRefGroup = AF5FB57116F77FE600CA2C7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF5FB56F16F77FE600CA2C7C /* ButtonStepperDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5FB56E16F77FE600CA2C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5FB57E16F77FE600CA2C7C /* InfoPlist.strings in Resources */,
+				AF5FB58616F77FE600CA2C7C /* Default.png in Resources */,
+				AF5FB58816F77FE600CA2C7C /* Default@2x.png in Resources */,
+				AF5FB58A16F77FE600CA2C7C /* Default-568h@2x.png in Resources */,
+				AF5FB59016F77FE600CA2C7C /* ViewController.xib in Resources */,
+				AF5FB59D16F7819600CA2C7C /* woof.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5FB56C16F77FE600CA2C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5FB58016F77FE600CA2C7C /* main.m in Sources */,
+				AF5FB58416F77FE600CA2C7C /* AppDelegate.m in Sources */,
+				AF5FB58D16F77FE600CA2C7C /* ViewController.m in Sources */,
+				AF5FB59B16F7813700CA2C7C /* CustomButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF5FB57C16F77FE600CA2C7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5FB57D16F77FE600CA2C7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF5FB58E16F77FE600CA2C7C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5FB58F16F77FE600CA2C7C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF5FB59116F77FE600CA2C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF5FB59216F77FE600CA2C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5FB59416F77FE600CA2C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonStepperDemo/ButtonStepperDemo-Prefix.pch";
+				INFOPLIST_FILE = "ButtonStepperDemo/ButtonStepperDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF5FB59516F77FE600CA2C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonStepperDemo/ButtonStepperDemo-Prefix.pch";
+				INFOPLIST_FILE = "ButtonStepperDemo/ButtonStepperDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF5FB56B16F77FE600CA2C7C /* Build configuration list for PBXProject "ButtonStepperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5FB59116F77FE600CA2C7C /* Debug */,
+				AF5FB59216F77FE600CA2C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5FB59316F77FE600CA2C7C /* Build configuration list for PBXNativeTarget "ButtonStepperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5FB59416F77FE600CA2C7C /* Debug */,
+				AF5FB59516F77FE600CA2C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5FB56816F77FE600CA2C7C /* Project object */;
+}
