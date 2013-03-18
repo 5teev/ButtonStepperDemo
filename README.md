@@ -19,3 +19,9 @@ In no particular order, here are some of the features and techniques used:
 4. Use NSUserDefaults to read/set existing preferences.
 5. Create scrollable content in a UIScrollView.
 6. Scroll image behind button to see how it behaves with plain or photo background.
+
+
+Why?
+====
+
+I made this project to explore some visual properties of a UIButton subclass, especially to allow designers to experiment *in situ* with all the visual attributes.
